@@ -7,7 +7,7 @@ Forgery(:basic).password
 Forgery(:internet).email_address
 Forgery(:monetary).money
 Forgery(:lorem_ipsum).words(10)
-Forgery().formatted_money :min => 100, :max => 1000
+Forgery(:monetary).formatted_money :min => 100, :max => 1000
 
 Forgery::Basic.hex_color
 Forgery::Name.full_name
