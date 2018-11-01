@@ -6,7 +6,7 @@ https://github.com/sevenwire/forgery
 Forgery(:basic).password
 Forgery(:internet).email_address
 Forgery(:monetary).money
-Forgery().words(10)
+Forgery(:lorem_ipsum).words(10)
 Forgery().formatted_money :min => 100, :max => 1000
 
 Forgery::Basic.hex_color
