@@ -5,7 +5,7 @@ https://github.com/sevenwire/forgery
 ```ruby
 Forgery(:basic).password
 Forgery(:internet).email_address
-Forgery().money
+Forgery(:monetary).money
 Forgery().words(10)
 Forgery().formatted_money :min => 100, :max => 1000
 
